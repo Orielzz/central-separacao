@@ -1,0 +1,56 @@
+[server]
+address = "127.0.0.1"
+headless = false
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#635BFF"
+backgroundColor = "#F6F7FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172033"
+borderColor = "#E2E6F0"
+baseRadius = "0.75rem"
+buttonRadius = "0.6rem"
+showWidgetBorder = true
+font = "sans serif"
+
+[theme.sidebar]
+primaryColor = "#635BFF"
+backgroundColor = "#EEF0F7"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172033"
+borderColor = "#DCE1ED"
+
+[theme.light]
+primaryColor = "#635BFF"
+backgroundColor = "#F6F7FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172033"
+borderColor = "#E2E6F0"
+dataframeHeaderBackgroundColor = "#EEF0F7"
+
+[theme.light.sidebar]
+primaryColor = "#635BFF"
+backgroundColor = "#EEF0F7"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172033"
+borderColor = "#DCE1ED"
+
+[theme.dark]
+primaryColor = "#A49BFF"
+backgroundColor = "#0F121B"
+secondaryBackgroundColor = "#191E2B"
+textColor = "#EDF1FA"
+borderColor = "#30384A"
+dataframeHeaderBackgroundColor = "#222A3A"
+
+[theme.dark.sidebar]
+primaryColor = "#A49BFF"
+backgroundColor = "#141925"
+secondaryBackgroundColor = "#222A3A"
+textColor = "#EDF1FA"
+borderColor = "#30384A"
